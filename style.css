@@ -1,0 +1,310 @@
+body {
+
+    margin:10px 10px 10px 10px;
+
+    background:repeating-linear-gradient(
+
+    45deg, 
+
+    #1B6CC3B8 0px,
+
+    #1B6CC3B8 40px,
+
+    #2047A4A8 40px,
+
+    #20A487A8 80px 
+
+   ), 
+
+    repeating-linear-gradient(
+
+    -45deg, 
+
+    #1B6CC3B8 0px,
+
+    #1B6CC3B8 40px,
+
+    #143170A8 40px, 
+
+    #1A4219A8 80px);
+
+    color:#1D1BC3BF;
+
+    Text-align:justify;
+
+    font-family:monaco;
+
+    font-size:small;
+
+    font-style:normal;
+
+      } 
+
+  body .shadow{
+
+   border-radius:10px;
+
+   border-style:none;
+
+   border-color:#9A18D4;
+
+  background-color:#1BC31B8C;
+
+  box-shadow:5px 0px 6px #111317;
+
+  padding:10px 10px 10px 10px ;
+
+  margin-bottom:10px;
+
+  
+
+      }
+
+    legend{
+
+   padding-left:5px;
+
+   border-radius:50px;
+
+    font-weight:small;
+
+    font-size:15px;
+
+    font-family:monospace;
+
+    background-color:#0FC15BC7;
+
+}
+
+fieldset{
+
+   display:flex;
+
+  flex-wrap:nowrap;
+
+  justify-content:flex-end;
+
+  align-items:center;
+
+  flex-direction:column;
+
+   /*position:fixed;  */
+
+  /* top:0;
+
+   right:0;
+
+   left:0; */
+
+  
+
+/*  margin-bottom:10px; */
+
+  border-width:0px;
+
+  border-radius:10px;  
+
+  background:
+
+  linear-gradient(
+
+    -10deg,
+
+   #0D7546A8 5px,
+
+  #0A6542DE 50px );
+
+}
+
+   fieldset input{
+
+     border-radius:50px;
+
+     border-width:0px;
+
+   /*  margin:1.5px 0px 1.5px 0px;   */
+
+     background-image:url(Bathe_base.jpg);
+
+   }  
+
+   
+
+     a:hover{
+
+       color:#17CC349C;
+
+     }
+
+            
+
+     
+
+.sub {
+
+    display:inline-table;
+
+    Vertical-align:sub;
+
+    
+
+}
+
+ header p{
+
+     text-indent:10px;
+
+     white-space:pre-line;
+
+     word-spacing:3px;
+
+ }
+
+ p #database{
+
+      width:40px;
+
+      height:40px;
+
+ }
+
+ 
+
+ p #database:hover{
+
+     transform:scale(1.5)
+
+ }
+
+ 
+
+ 
+
+ footer .icon2{
+
+   padding:40px 0px 0px 40px ;
+
+   width:50px;
+
+   height:50px;
+
+ 
+
+ }
+
+ 
+
+ footer .icon2:hover{
+
+   position:relative;
+
+    animation-name:icon-rev;
+
+ animation-duration:2s;
+
+ animation-iteration-count:2;
+
+ animation-fill-mode:forward;
+
+ }
+
+ @keyframes icon-rev{
+
+   0%{
+
+     transform:scale(1);
+
+   }
+
+   50%{
+
+     opacity:0.5;
+
+     transform: rotate(360deg);
+
+   }
+
+   100%{
+
+     left:-20px;
+
+     left:20px;
+
+   }
+
+      } 
+
+      
+
+  iframe{
+
+    border-width:0px;
+
+    border-radius:20px;
+
+    margin:10px;
+
+    width:300px;
+
+    height:150px;
+
+  }
+
+ 
+
+ 
+
+h1, h2{ 
+
+    border-radius:10px;
+
+    border-width:5px;
+
+    border-style:dashed; 
+
+border-color: #36356C;
+
+    padding:0px 0px 0px 60px;
+
+    margin:0px 40px 0px 40px;
+
+}
+
+  
+
+nav  ul .icon{
+
+  padding:5px;
+
+  height:50px;
+
+  width:50px;
+
+  
+
+}
+
+ 
+
+ 
+
+ section {
+
+   border:5px;
+
+   border-radius:10px ;
+
+   width:100%;
+
+ }
+
+ article table{
+
+   border:1px;
+
+   width:100%;
+
+ }
+
+    
+
